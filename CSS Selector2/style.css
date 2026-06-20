@@ -1,0 +1,55 @@
+/*Universal Selector*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*element selector*/
+h{
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+    color:rgb(3, 0, 10);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+}
+
+body{
+    background-image: url("/image/aesthetic.gif");
+    background-color: rgb(0, 0, 0);
+    background-size:cover;
+    background-position:center;
+    
+}
+
+ul{
+    font-size:30px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+/*Group selectors*/
+h1,h2{
+    text-align: center;
+    color:rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+/*ID selector*/
+#about{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
+
+/*Class Selector*/
+.contact{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+}
