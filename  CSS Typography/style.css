@@ -1,0 +1,49 @@
+/*heading font*/
+h1{
+  font-family: "Merriweather", serif;
+  font-optical-sizing: auto;
+  font-weight:500;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+/*body font*/
+p{
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:200;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+
+/*body*/
+body{
+    background-color: #f8f7f4;
+}
+
+/*header*/
+header{
+    background-color:#b30000;
+    color : white;
+    text-align:center;
+    padding:20px;
+}
+
+/*image */
+.img{
+    justify-content: center;
+}
+
+/*heading tags*/
+h1,h2{
+font-family: "Merriweather",serif;
+text-align: center;
+}
+
+
+/*paragaph*/
+p{
+    font-family:"Open-Sans";
+}
